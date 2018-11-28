@@ -22,14 +22,14 @@ body {
 	position: relative;
 	max-width: 1366px;
 	height: 910px;
-	background: url(../img/most_main.jpg) lightgray;
+	background: url(../img/most_main.jpg) #99739e;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center top;
 }
 .border{
 	position: absolute;
-	height: 230px;
+	min-height: 230px;
 	width: 100%;
 	background-color: rgba(153,115,158,0.3);
 	top: 100px;
