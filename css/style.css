@@ -56,7 +56,12 @@ input{
  	border-radius:10px;
  	border: 1px solid #dcdf98;
  	padding-left: 10px;
+ 	vertical-align: top;
  }
+input:nth-child(1):hover,input:nth-child(2):hover,input:nth-child(3):hover{
+	border: 7px solid #dcdf98;
+	margin-top:-6px;
+}
 input:nth-child(1){
 	width: 125px;
 }
@@ -65,7 +70,6 @@ input:nth-child(2){
 }
 input:nth-child(3){
 	width: 135px;
-	border: 7px solid #dcdf98;
 }
 input:nth-child(4){
 	width: 175px;
@@ -78,4 +82,4 @@ input:nth-child(4){
 	font-size:11px;
 	color: #dcdf98;
     opacity: 1;
-  }
+ }
