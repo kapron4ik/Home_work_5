@@ -3,7 +3,10 @@ body {
 	margin:0 auto;
 	font-family: 'Arimo', sans-serif;
 	color: #dcdf98;
-	
+}
+.wrapper {
+	max-width: 700px;
+	margin:0 auto;
 }
 .hedder {
 	height: 35px;
@@ -47,7 +50,9 @@ body {
 	margin-bottom: 40px;
 }
 form{
+	display: flex;
 	text-align: center;
+	justify-content: center;
 	
 }
 input{
@@ -57,11 +62,11 @@ input{
  	border: 1px solid #dcdf98;
  	padding-left: 10px;
  	vertical-align: top;
+ 	margin-left: 6px;
+ 	margin-right: 6px;
+ 	color: #dcdf98;
  }
-input:nth-child(1):hover,input:nth-child(2):hover,input:nth-child(3):hover{
-	border: 7px solid #dcdf98;
-	margin-top:-6px;
-}
+
 input:nth-child(1){
 	width: 125px;
 }
@@ -73,13 +78,31 @@ input:nth-child(3){
 }
 input:nth-child(4){
 	width: 175px;
+	height: 34px;
 	color: #fff;
 	border: none;
 	background-color: #58a856;
 	font-size:11px;
 }
+
+input:nth-child(1):hover,input:nth-child(2):hover,input:nth-child(3):hover{
+	border: 7px solid #dcdf98;
+	margin-top:-6px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+input:nth-child(4):hover{
+	background-color: grey;
+	color: #000;
+}
+
 ::placeholder {
 	font-size:11px;
 	color: #dcdf98;
     opacity: 1;
+ }
+
+ :focus{
+ 	outline: 0;
  }
